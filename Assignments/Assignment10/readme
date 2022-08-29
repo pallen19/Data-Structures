@@ -1,0 +1,22 @@
+Assignment 10 – PART 1 Hashing _____________ (100 points) :
+There is only one Part to this assignment, Programming Exercise 27.1 from the Liang textbook, end of the Chapter Programming Exercises, re-printed below.
+In the text you will find a custom Map interface to mirror java.util.Map. The name for that interface is MyMap and there is a concrete class MyHashMap, as shown in Figure 27.9, page 995 of Liang text.
+Implement MyMap using open addressing with linear probing. Hint: You must create a new concrete class that implements MyMap using open addressing with linear probing, as described on p. 989. See the lecture on linear probing.
+For simplicity, use f(key) = key % size as the hash function, where size is the hash-table size. Initially, the hash-table size is 4. The table size is doubled whenever the load factor exceeds the threshold (0.5). Note: you will need to write a different hash function ie can’t use the one in the book
+ISSUE WITH THIS ASSIGNMENT - p. 997 MyHashMap.java, line 23 where they class creates table with linked list – tell change them to just “create array of entries” as MyMap.entry
+ISSUE WITH THIS ASSIGNMENT they didn’t change the hash function, tell them you will need to write a different has function ie can’t use the one in the book
+ISSUE WITH THIS ASSIGNMENT they didn’t like explanation of open addressing with linear probling p. 989, section 27.4.1
+Do not forget to include author header in each submitted file as shown, no header, no points!
+    // Name:
+// Class:
+// Term:
+// Instructor:  Sharon Perry
+// Assignment:  10-Part-1-Hashing
+<your name>
+CS 3305/ put your section number after the /
+Fall 2022
+Capture a READABLE screenshot(s) of your program output and paste into a word/pdf document. Readable means readable! Screenshots should not be an entire desktop – use some type of snipping tool. After your output screenshots, copy and paste the source code for your program into the word/pdf doc. Save doc as a file named LastName-A10-Part-1-Hashing.docx or .pdf. Last step
+  
+is to upload word/pdf and .java files to D2L.
+SUBMIT YOUR OWN CODE – Code copied from the internet will receive a score of zero.
+MAKE SURE YOUR CODE HAS COMMENTS ! We are getting submissions without comments in the code. No comments = ( -20 ) points per Part of the assignment

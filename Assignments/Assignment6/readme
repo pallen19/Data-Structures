@@ -1,0 +1,63 @@
+QUESTIONS FROM LANCE ABOUT THIS in his email – also see attachement in folder
+1) For assignment 5, I've been taking off points if elements of equal priority do not come off the queue in FIFO order. However, a student in office hours pointed out to me that this isn't necessarily the case for implementations of PriorityQueue. Do you want me to give back points to students with that issue and stop grading it that way?
+2) A student came to my office hours and asked what the best way to study for the test was. I told her I wasn't sure and that probably reviewing the quizzes and lectures would work, but I don't actually know. What would you like me to tell her?
+3) I have some questions about A6. I attached my solution to this email in a word doc.
+3.1) Are all my answers correct? I particularly feel like I'm missing something regarding question 2. 3.2) Should I take off points if students don't show work on question 1?
+3.3) For question 3, I gave an answer for this exact case and for the general case. Which one are you looking for?
+OUR RESPONSES
+Betty and I are on the phone composing this response so that we are in synch
+Q1, Yes, stop grading it that way and give points back
+Q2. Read the textbook, review quizzes, lecture videos, and slides
+Q3.1. See the solutions for A6 - attached - we are in synch except for the last one and Betty has her reasoning written out - please review that and see if you agree. We can discuss
+Q3.2 Yes, the assignment says "clearly show all steps of your work."
+Q3.3 The question looks for the exact case, but if they did the general case, then that's fine, they get
+credit.
+ 
+ Objectives The purpose of this lab is to reinforce concepts of runtime analysis ( Big O ) Assignment 06 PART 1 Runtime Analysis (50 points) - Note Part 1 is a separate deliverable:
+1. Use Big O notation to estimate the time complexity of each of the following code fragments. Clearly show all steps of your work. Review examples in textbook pp. 822-827
+  1.1
+1.2
+sum = 0;
+for (int i = 0; i < n; i++){
+sum++; }
+sum = 0;
+for (int i = 0; i < n; i++)
+{
+for (int j = 0; j < n; j++){
+sum++;
+} }
+sum = 0;
+for (int i = 0; i < n; i++){
+for (int j = 0; j < n * n; j++) { sum++;
+} }
+sum = 0; for(inti=0;i<n;i++) {
+for(intj=0;j<i;j++) { sum++;
+} }
+sum 0; for(inti=0;i<n;i++) {
+for (int j = 0; j < i * i; j++) { for(intk=0;k<j;k++) {
+1.3
+1.4
+1.5
+sum++;
+
+} }
+}
+You do not need screenshots for A6-Part 1 and you do not need to copy and paste any code. If you work your problems out on paper, you may scan the work into a word doc as images. Phones have scan apps that do a good job. Name your file LastName-A6-Part-1-Runtime.docx or .pdf. Last step is to upload word/pdf file to D2L. You do not need to submit a .java file for A6-Part-1.
+Assignment 06 – PART 2 Program Analysis (50 points) - Note Part 2 is a separate deliverable:
+ 1. 2.
+Write a Java program that displays the current time and determine the time compexity (i.e. what is the big O)
+Write a java program that will convert distance measurements from miles to kilometers for input of n numbers, and determine the worst case efficiency.
+Specifically, the program needs to convert 0, 10, 20, 30, 40 , 50, 60, 70, 80, and 90 miles to kilometers displaying both the number of miles and the number of kilometers on the same line. Tip: 1 mile = 1.6 x km
+<your name>
+CS 3305/ put your section number after the /
+Fall 2022
+//
+//
+//
+// Instructor: Sharon Perry
+// Assignment: 06-Part-2.1-Time or 06-Part-2.2-Miles
+Name:
+Class:
+Term:
+Capture a READABLE screenshot(s) of your program output and paste into a word/pdf document. Readable means readable! Screenshots should not be an entire desktop – use a snipping tool. After your output screenshots, copy and paste the source code for your exercise into the word/pdf doc. Save doc for each part of Part 2 as files named LastName-A6-Part-2.1-Time.docx or .pdf and LastName-A6-Part-2.2-Miles.docx or .pdf. Last step is to upload word/pdf and .java files to D2L.
+MAKE SURE YOUR CODE HAS COMMENTS ! We are getting submissions without comments in the code. No comments = ( -20 ) points per Part of the assignment.

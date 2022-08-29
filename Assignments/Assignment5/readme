@@ -1,0 +1,38 @@
+Write a class with a main method that uses a priority queue to store a list of chores and the chore’s priority. You need to store the name of the chore and it’s assigned priority. Assigned priorities can be any positive integer. The rest is up to you.
+YOU may use the Java Linked List Class, and build your queue with that class.
+Requirements
+No files are provided with any part of this Assignment.
+Do not forget to include author header in each submitted file as shown, no header, no points!
+     // Name:
+// Class:
+// Term:
+// Instructor:  Sharon Perry
+// Assignment:  05-Part-1-Queues
+<your name>
+CS 3305/ put your section number after the /
+Fall 2022
+Capture a READABLE screenshot(s) of your program output and paste into a word/pdf document. Readable means readable! Screenshots should not be an entire desktop – use some type of snipping tool. After your output screenshots, copy and paste the source code for your program into the word/pdf doc. Save doc as a file named LastName-A5-Part-1-Queues.docx or .pdf. Last step is to upload word/pdf and .java files to D2L.
+MAKE SURE YOUR CODE HAS COMMENTS ! We are getting submissions without comments in the code. No comments = ( -20 ) points per Part of the assignment.
+  
+Assignment 05 – PART 2 Shoppers (50 points) - Note Part 2 is a separate deliverable:
+ You may use the Java Library Queue class for Part 2
+Write a program to simulate checkout lines at a grocery store. There will be multiple queues, one for each check out line. For this exercise, you may assume there are 5 check out lines. You can use an array of queues to simulate the checkout lines.
+Use the following logic:
+1. Generate 5 customers and enqueue them, one customer in each queue
+2. Each new customers ready to check out choose the shortest line
+Customers enter the check out queues randomly, and then each time a customer is generated that customer chooses the shortest line.
+If the lines are equal, then the first available line is chosen. Each transaction takes a random amount of time to complete. Print each action taken with Queue number, to the display.
+For your output show the queues with customers and activity, showing changes in each queue.
+You can capture all of the output at the end of the program running. Program should list actions that have been performed and Queue numbers.
+Be sure to limit your program in order to ensure that it does not run forever.
+Do not forget to include author header in each submitted file as shown, no header, no points!
+ // Name:
+// Class:
+// Term:
+// Instructor:  Sharon Perry
+// Assignment:  05-Part-2-Shoppers
+<your name>
+CS 3305/ put your section number after the /
+Fall 2022
+Capture a READABLE screenshot(s) of your program output and paste into a word/pdf document. Readable means readable! Screenshots should not be an entire desktop – use some type of snipping tool. After your output screenshots, copy and paste the source code for your program into the word/pdf doc. Save doc as a file named LastName-A5-Part-2-Shoppers.docx or .pdf. Last step is to upload word/pdf and .java files to D2L.
+MAKE SURE YOUR CODE HAS COMMENTS ! We are getting submissions without comments in the code. No comments = ( -20 ) points per Part of the assignment

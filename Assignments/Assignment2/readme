@@ -1,0 +1,20 @@
+Recursion
+
+Objective: To reinforce the concept of recursion.
+Assignment: There are two parts to this assignment.
+Part 1 - Factorial
+Write out the logic / pseudo code to compute the factorial of n, customarily denoted as n! It is important to use correct recursion terminology in your pseudo code.
+Next, use your pseudo code as the basis for writing a complete, well documented program. Your program should prompt the user to enter a nonnegative number and then display the factorial for that number. Your program must contain a function called factorial. Function factorial calculates the factorial of a number. Sample output is included below.
+Do not forget to include author header in your file as shown, no header, no points!
+ 
+Enter a nonnegative integer: 4 <enter> Factorial of 4 is 24
+ // Name:
+// Class:
+// Term:
+// Instructor:  Sharon Perry
+// Assignment: 2 – Part 1 Factorial
+<your name>
+CS 3305/ put your section number after the /
+Fall 2022
+DELIVERABLE INSTRUCTIONS
+Capture a READABLE screenshot(s) of your program output and paste into a word/pdf document. Readable means readable! Screenshots should not be an entire desktop – use some type of snipping tool. After your output screenshots, copy and paste the source code for your program into the word/pdf doc. Save doc as a file named LastName-A2-Part-1-Factorial.docx or .pdf. word. Last step is to upload everything to D2L, word/pdf doc and source code file.
